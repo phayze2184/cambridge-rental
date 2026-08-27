@@ -4,8 +4,8 @@
     z-index: 10;
     display: flex;
     justify-content: space-between;
-    background-color: oklch(12.9% 0.042 264.695);
-    color: oklch(98.4% 0.003 247.858);
+    background-color: var(--color-brand-dark);
+    color: var(--text-on-dark);
     padding-block: 0.625rem;
     padding-inline: 1.25rem;
 
@@ -21,7 +21,7 @@
     align-items: center;
     gap: 0.5rem;
   .icon {
-     color: oklch(76.5% 0.177 163.223);
+     color: var(--color-accent);
   }
   .span {
     font-weight: 500;

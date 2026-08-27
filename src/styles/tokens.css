@@ -1,0 +1,6 @@
+:root {
+  --color-brand-dark: oklch(12.9% 0.042 264.695);
+  --text-on-dark: oklch(98.4% 0.003 247.858);
+  --color-accent: oklch(76.5% 0.177 163.223);
+  --color-error: oklch(71.2% 0.194 13.428);
+}

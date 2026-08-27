@@ -5,8 +5,8 @@
 
     .title {
         font-size: 1.75rem;
-        color: oklch(12.9% 0.042 264.695);
-        border-bottom: 0.125rem solid oklch(76.5% 0.177 163.223);
+        color: var(--color-brand-dark);
+        border-bottom: 0.125rem solid var(--color-accent);
         display: inline-block;
         padding: 0.625rem;
         margin: 0;
