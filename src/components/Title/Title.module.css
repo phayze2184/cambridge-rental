@@ -1,0 +1,14 @@
+.titleSection {
+    text-align: center;
+    margin-block: 1.25rem;
+    margin-inline: 0;
+
+    .title {
+        font-size: 1.75rem;
+        color: oklch(12.9% 0.042 264.695);
+        border-bottom: 0.125rem solid oklch(76.5% 0.177 163.223);
+        display: inline-block;
+        padding: 0.625rem;
+        margin: 0;
+    }
+}

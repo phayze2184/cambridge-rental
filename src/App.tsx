@@ -6,7 +6,7 @@ export default function App() {
     <div className={styles.app}>
       <Header />
       <main>
-        <Title>Cambridge Rentals</Title>
+        <Title>Properties for Rent</Title>
         <PropertyList />
       </main>
       <Footer />
