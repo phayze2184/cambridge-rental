@@ -1,8 +1,8 @@
-import './PropertyAttribute.module.css';
+import styles from './PropertyAttribute.module.css'
 
-export default function() {
+export default function PropertyAttribute() {
     return(
-        <p>
+        <p className={styles.propertyAttribute}>
 
         </p>
     )

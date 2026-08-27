@@ -1,8 +1,8 @@
-import './IconWithText.module.css';
+import styles from './IconWithText.module.css'
 
-export default function() {
+export default function IconWithText() {
     return(
-        <span>
+        <span className={styles.iconWithText}>
 
         </span>
     )

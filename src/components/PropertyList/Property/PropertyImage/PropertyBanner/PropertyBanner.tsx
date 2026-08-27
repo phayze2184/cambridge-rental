@@ -1,8 +1,8 @@
-import './PropertyBanner.module.css';
+import styles from './PropertyBanner.module.css'
 
 export default function PropertyBanner() {
     return (
-        <div>
+        <div className={styles.propertyBanner}>
 
         </div>
     )

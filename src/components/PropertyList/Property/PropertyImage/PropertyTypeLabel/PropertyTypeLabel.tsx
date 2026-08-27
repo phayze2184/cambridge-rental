@@ -1,8 +1,8 @@
-import './PropertyTypeLabel.module.css';
+import styles from './PropertyTypeLabel.module.css'
 
 export default function PropertyTypeLabel() {
     return(
-        <div>
+        <div className={styles.propertyTypeLabel}>
 
         </div>
     )
