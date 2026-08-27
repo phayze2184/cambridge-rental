@@ -1,8 +1,8 @@
-import  './Property.module.css'
+import styles from './Property.module.css'
 
 export default function Property() {
     return(
-        <div>
+        <div className={styles.property}>
 
         </div>
     ) 

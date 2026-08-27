@@ -1,4 +1,4 @@
-import { Footer, Header, PropertyList, Title } from './components'
+import { Header, Title, PropertyList, Footer } from './components'
 
 export default function App() {
   return (

@@ -1,8 +1,8 @@
-import './PropertyImage.module.css';
+import styles from './PropertyImage.module.css'
 
 export default function PropertyImage() {
     return(
-        <div>
+        <div className={styles.propertyImage}>
 
         </div>
     ) 
