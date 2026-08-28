@@ -3,9 +3,10 @@ html {
 }
 
 .app {
-    margin-top: 4rem;
+    margin-block-start: 4rem;
+    margin-block-end: 8rem;
     
     @media(max-width: 48rem) {
-        margin-top: 10rem;
+        margin-block: 10rem;
     }
 }

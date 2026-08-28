@@ -1,52 +1,64 @@
 # Cambridge Rentals
 
-A React and TypeScript starter for a property-rental interface.
+A responsive property-rental listing interface built with React, TypeScript, Vite, CSS Modules, and Lucide icons.
 
-## Requirements
+![Cambridge Rentals app preview](docs/images/app-preview.png)
 
-- Node.js 20 or later
-- npm or pnpm
+## Features
 
-## Get started
+- Renders property cards from typed listing data
+- Shows property type, image, bedrooms, bathrooms, floor area, address, rent, and availability date
+- Displays a “Let Agreed” overlay for unavailable properties
+- Uses reusable presentational components and CSS Modules
+- Uses Lucide React icons for property attributes
 
-Install dependencies and start the development server:
+## Tech stack
+
+- React
+- TypeScript
+- Vite
+- CSS Modules
+- lucide-react
+
+## Getting started
+
+### Prerequisites
+
+- Node.js 20+
+- pnpm
+
+### Install and run
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm dev
 ```
 
-Open the local URL shown in the terminal, usually `http://localhost:5173`.
-
-## Available commands
+## Available Scripts
 
 ```bash
-npm run dev      # Start the development server
-npm run build    # Type-check and create a production build
-npm run lint     # Check code quality with ESLint
-npm run preview  # Preview the production build locally
+pnpm dev       # Start the development server
+pnpm build     # Type-check and create a production build
+pnpm lint      # Run ESLint
+pnpm preview   # Preview the production build locally
 ```
 
-## Project structure
+## Project Structure
 
 ```text
 src/
-  main.tsx                 Application entry point
-  App.tsx                  Main page layout
-  components/
-    index.ts               Shared component exports
-    Header/                Site header
-    Title/                 Page title
-    PropertyList/          Property-list components
-    Footer/                Site footer
-```
-
-Import shared components from the component index:
-
-```tsx
-import { Footer, Header, PropertyList, Title } from './components'
+├── assets/images/       # Property images
+├── components/          # Reusable UI components
+├── data/properties.ts   # Typed property listing data
+├── styles/tokens.css    # Global design tokens
+├── App.tsx              # Application composition
+└── main.tsx             # React entry point
 ```
 
 ## Styling
 
-Components use CSS Modules where appropriate. Keep a component's styles in the same folder as its `.tsx` file. `PropertyList` currently uses a regular CSS file.
+Components use CSS Modules to scope class names to their components and prevent class-name collisions. Shared colours and design tokens are defined in `src/styles/tokens.css`.
+
+## Property Data
+
+Property listings are stored in `src/data/properties.ts`. Each listing follows the `Property` TypeScript interface, which keeps card data consistent across the application.

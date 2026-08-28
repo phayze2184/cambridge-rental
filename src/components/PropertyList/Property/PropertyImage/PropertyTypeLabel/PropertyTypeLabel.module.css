@@ -1,0 +1,19 @@
+.propertyTypeLabel {
+    position: absolute;
+    inset-block-start: 0.75rem;
+    inset-inline-start: 0.75rem;
+    z-index: 1;
+    padding: 0.25rem 0.5rem;
+    border-radius: 0.25rem;
+    background-color: oklch(59.6% 0.145 163.225 / 0.9);
+    color: var(--text-on-dark);
+    padding-block: 0.3125rem;
+    padding-inline: 0.625rem;
+    position: absolute;
+    inset-block-start: 0.625rem;
+    inset-inline-end: 0.625rem;
+    inset-inline-start: auto;
+    font-size: 0.75rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}

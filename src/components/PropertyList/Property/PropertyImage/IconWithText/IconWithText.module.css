@@ -1,0 +1,7 @@
+.iconWithText {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem; /* 4px */
+    margin-block: 0;
+    margin-inline: 0.25rem;
+}

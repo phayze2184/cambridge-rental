@@ -1,0 +1,7 @@
+.propertyList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.25rem; /* 20px */
+    padding: 1.25rem;
+}
