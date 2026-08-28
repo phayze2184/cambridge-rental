@@ -1,6 +1,10 @@
 :root {
   --color-brand-dark: oklch(12.9% 0.042 264.695);
   --text-on-dark: oklch(98.4% 0.003 247.858);
+  --text-subtle: oklch(27.9% 0.041 260.031);
   --color-accent: oklch(76.5% 0.177 163.223);
   --color-error: oklch(71.2% 0.194 13.428);
-}
+  --price-color:oklch(59.6% 0.145 163.225);
+  --border-default: oklch(86.9% 0.022 252.894); 
+  --font-size-small: 0.875rem; /* 14px */
+} 

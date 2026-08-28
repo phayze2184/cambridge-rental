@@ -1,9 +1,13 @@
 import styles from './PropertyTypeLabel.module.css'
 
-export default function PropertyTypeLabel() {
-    return(
-        <div className={styles.propertyTypeLabel}>
+interface PropertyTypeLabelProps {
+   type: string
+}
 
-        </div>
+export default function PropertyTypeLabel({ type }: PropertyTypeLabelProps) {
+    return (
+        <span className={styles.propertyTypeLabel}>
+          {type}
+        </span>
     )
 }

@@ -1,5 +1,6 @@
-import { Header, Title, PropertyList, Footer } from './components'
+import { Footer, Header, PropertyList, Title } from './components'
 import styles from './App.module.css'
+import properties from './data/properties'
 
 export default function App() {
   return (
@@ -7,7 +8,7 @@ export default function App() {
       <Header />
       <main>
         <Title>Properties for Rent</Title>
-        <PropertyList />
+        <PropertyList properties={properties} />
       </main>
       <Footer />
     </div>
