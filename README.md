@@ -4,6 +4,8 @@ A responsive property-rental listing interface built with React, TypeScript, Vit
 
 ![Cambridge Rentals app preview](docs/images/app-preview.png)
 
+[View the live app](https://phayze2184.github.io/cambridge-rental/)
+
 ## Features
 
 - Renders property cards from typed listing data
